@@ -3,6 +3,7 @@ import './write.css';
 function Write() {
   return (
     <div className='write'>
+      <img src="https://images.pexels.com/photos/952594/pexels-photo-952594.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="writeImg" />
         <form action="POST" className="writeForm">
             <div className="writeFormGroup">
                 <label htmlFor="fileInput">
